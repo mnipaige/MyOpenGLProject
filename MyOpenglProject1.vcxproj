@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App\GLSL\2.1\FragShader.glsl" />
+    <None Include="App\GLSL\2.1\VectShader.glsl" />
+    <None Include="App\GLSL\2.4\FragShader.glsl" />
+    <None Include="App\GLSL\2.4\VectShader.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\Main\main.cpp" />
+    <ClCompile Include="App\Utils\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\Utils\Utils.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -144,13 +157,6 @@
       <AdditionalDependencies>glew32.lib;glfw3.lib;soil2-debug.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="test.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="GLSL\2.1\FragShader.glsl" />
-    <None Include="GLSL\2.1\VectShader.glsl" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

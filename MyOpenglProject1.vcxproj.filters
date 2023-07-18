@@ -16,24 +16,50 @@
     <Filter Include="lib">
       <UniqueIdentifier>{17385a49-e14b-4a19-b8a3-9280e1e5fa4c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件\GLSL">
-      <UniqueIdentifier>{b5c9f5e7-f075-45ea-8486-ff65df1bae65}</UniqueIdentifier>
+    <Filter Include="App">
+      <UniqueIdentifier>{baee578d-4052-4bc5-a316-805d2e64c339}</UniqueIdentifier>
     </Filter>
-    <Filter Include="资源文件\GLSL\2.1">
-      <UniqueIdentifier>{d2b40bb3-1d6e-40c1-953b-924a1d8f89ce}</UniqueIdentifier>
+    <Filter Include="App\GLSL">
+      <UniqueIdentifier>{5e202016-cf54-41d5-ae82-a95241928100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\GLSL\2.1">
+      <UniqueIdentifier>{ede3bac9-36b4-4017-9050-1622b067166c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\GLSL\2.4">
+      <UniqueIdentifier>{d780704b-5baf-4d56-a887-b36ba42ba282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Main">
+      <UniqueIdentifier>{531ad491-1a4e-40a4-8415-66c546679a57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Utils">
+      <UniqueIdentifier>{44933ecb-6f90-47d1-9904-d2244e812148}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test.cpp">
-      <Filter>源文件</Filter>
+    <None Include="App\GLSL\2.1\FragShader.glsl">
+      <Filter>App\GLSL\2.1</Filter>
+    </None>
+    <None Include="App\GLSL\2.1\VectShader.glsl">
+      <Filter>App\GLSL\2.1</Filter>
+    </None>
+    <None Include="App\GLSL\2.4\FragShader.glsl">
+      <Filter>App\GLSL\2.4</Filter>
+    </None>
+    <None Include="App\GLSL\2.4\VectShader.glsl">
+      <Filter>App\GLSL\2.4</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\Main\main.cpp">
+      <Filter>App\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="App\Utils\Utils.cpp">
+      <Filter>App\Utils</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="GLSL\2.1\FragShader.glsl">
-      <Filter>资源文件\GLSL\2.1</Filter>
-    </None>
-    <None Include="GLSL\2.1\VectShader.glsl">
-      <Filter>资源文件\GLSL\2.1</Filter>
-    </None>
+    <ClInclude Include="App\Utils\Utils.h">
+      <Filter>App\Utils</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

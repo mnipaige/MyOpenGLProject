@@ -1,2 +1,22 @@
-﻿  test.cpp
+﻿  main.cpp
+D:\MyOpenglProject1\App\Utils\Utils.h(25,2): warning C4091: “static ”: 没有声明变量时忽略“Utils”的左侧
+  Utils.cpp
+D:\MyOpenglProject1\App\Utils\Utils.cpp(1,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+D:\MyOpenglProject1\App\Utils\Utils.h(25,2): warning C4091: “static ”: 没有声明变量时忽略“Utils”的左侧
+  正在生成代码...
+glfw3.lib(context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(context.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(init.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(input.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(monitor.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(vulkan.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(vulkan.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(window.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_init.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_init.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_joystick.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_joystick.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_monitor.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_monitor.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_time.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_time.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_thread.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_thread.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(win32_window.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(win32_window.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(wgl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(wgl_context.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(egl_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(egl_context.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+glfw3.lib(osmesa_context.obj) : warning LNK4099: 未找到 PDB“glfw3.pdb”(使用“glfw3.lib(osmesa_context.obj)”或在“D:\MyOpenglProject1\x64\Debug\glfw3.pdb”中寻找)；正在链接对象，如同没有调试信息一样
   MyOpenglProject1.vcxproj -> D:\MyOpenglProject1\x64\Debug\MyOpenglProject1.exe
